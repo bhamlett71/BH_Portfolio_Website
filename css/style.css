@@ -1,0 +1,231 @@
+/* Reset some default styles for consistency */
+body, figure, h1, h2, h3, p, ul {
+    margin: 3;
+    padding: 3;
+  }
+  
+  body {
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  img {
+    width: 100%;
+  }
+
+  a {
+    color: #1c1c9d;
+    text-decoration: none; /* No underlining */
+  }
+  a:hover {
+    color: #c6c9f2;
+    text-decoration: none; 
+  }
+
+a:hover,
+a:focus {
+  color: #c6c9f2;
+  text-decoration: none;
+}
+
+.button {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #000000; 
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid #11123c; 
+    transition: 0.2s 'opacity';
+    text-transform: small-caps;
+    border: 2px solid #11123c
+
+  }
+
+  .button:hover {
+    background-color: #000000; 
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  a:visited { /* visited link */
+    color: #f307d4;
+  }
+  a:active { /* selected link */
+    color: #e7f307;
+  }
+
+  .button.contact {
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid #11123c;
+    transition: 0.2s 'opacity';
+    text-transform: small-caps;
+    border: 2px solid #11123c;
+  }
+
+  .button.contact:hover {
+    background-color: #000000;
+    color: #ffffff
+  }
+  
+  
+  .container {
+    max-width: 1200px;
+    margin: 3 auto;
+    padding: 20px;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .nav-bar {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-list {
+    display: flex;
+    list-style-type: none;
+    padding: 10px 3;
+  }
+  
+  .nav-item {
+    margin: 3 10px;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ccc;
+  }
+  
+  /* Hero section */
+  .hero {
+    background-color: #f9f9f9;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .hero-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-subtitle {
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #666;
+  }
+  
+  .hero-cta {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-cta:hover {
+    background-color: #666;
+  }
+  
+  /* Portfolio section */
+  .section-title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .portfolio-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .portfolio-image {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .portfolio-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .portfolio-description {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* About section */
+  .about {
+    padding: 100px 0;
+  }
+  
+  .about-image {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .about-text {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Contact section */
+  .contact {
+    background-color: #f9f9f9;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .contact-form-input,
+  .contact-form-textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .contact-form-textarea {
+    resize: none;
+    height: 150px;
+  }
+  
+  .contact-form-input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form-input[type="submit"]:hover {
+    background-color: #666;
+  }
