@@ -46,6 +46,7 @@ a:focus {
     background-color: #000000; 
     color: #ffffff;
     text-decoration: none;
+    text-transform: small-caps;
   }
 
   a:visited { /* visited link */
@@ -63,13 +64,14 @@ a:focus {
     border-radius: 3px;
     border-bottom: 2px solid #11123c;
     transition: 0.2s 'opacity';
-    text-transform: small-caps;
     border: 2px solid #11123c;
   }
 
   .button.contact:hover {
     background-color: #000000;
-    color: #ffffff
+    color: #ffffff;
+    text-transform: small-caps;
+    text-decoration: none;
   }
   
   /* Header */
