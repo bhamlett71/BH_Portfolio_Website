@@ -11,44 +11,45 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 </head>
-<body>
+<body class="container">
   <header>
-    <div id="nav">
+    <div class="header">
     <img src="https://via.placeholder.com/150x50?text=Logo" alt="Your Name">
-    <nav>
-      <ul>
-        <li><a href="about.html">About Brittany Hamlett</a></li>
-        <li><a href="index.html">Work</a></li>
-        <li><a href="#contact">Contact</a></li>
+    <nav class="nav-bar">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="about.html" a href="#" class="nav-list">About</a></li>
+        <li class="nav-item"><a href="index.html" a href="#" class="nav-list">Work</a></li>
+        <li class="nav-item"><a href="#contact" a href="#" class="nav-list">Contact</a></li>
       </ul>
     </nav>
     </div>
   </header>
   <main>
     <div id="hero">
+      <section>
       <div>
-        <h1>Hi, I'm Brittany!</h1>
+        <h1 class="hero-title">Hi, I'm Brittany!</h1>
         <span></span>
-        <p>As a multidisciplinary UX designer, my philosophy is centered around creating designs that are inclusive, accessible, and localized to serve diverse audiences.</p>
+        <p class="hero-subtitle">As a multidisciplinary UX designer, my philosophy is centered around creating designs that are inclusive, accessible, and localized to serve diverse audiences.</p>
       </div>
+    </section>
     </div>
     <div>
-      <div id="work">
-        <h2>My Work</h2>
-      </div>
-    </div>
-    <div>
+    <section class="work">
+        <h2 class="section-tile">My Work</h2>
+        <div class="work-grid">
+          <div class="work-item">
       <div>
         <picture>
           <source srcset="img/PlutoPay.png" media="(max-width:700px)">
-          <img src="img/PlutoPay.png" alt="PlutoPay Project">
+          <img src="img/PlutoPay.png" alt="PlutoPay Project" class="work-image">
         </picture>
       </div>
       </div>
-
-      <h3>PlutoPay</h3>
-      <p>PlutoPay is a mobile web responsive app that serves as an e-wallet and online banking system that allows users to send and receive in the safest and most efficient way. It is a centralized hub that is directly linked to their checking, savings, credit, and debit accounts without needing multiple banking apps.</p>
+      <h3 class="work-title">PlutoPay</h3>
+      <p class="work-description">PlutoPay is a mobile web responsive app that serves as an e-wallet and online banking system that allows users to send and receive in the safest and most efficient way. It is a centralized hub that is directly linked to their checking, savings, credit, and debit accounts without needing multiple banking apps.</p>
       <a href="PlutoPay.html" a href="#" class="button">Read more</a>
+    </section>
     </div>
   </div>
   </main>
