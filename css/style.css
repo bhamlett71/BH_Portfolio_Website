@@ -7,6 +7,65 @@ body, figure, h1, h2, h3, p, ul {
   body {
     background-color: #ffffff;
     font-family: 'Poppins', sans-serif;
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  .container {
+    max-width: 3000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .nav-list {
+    display: flex;
+    list-style-type: none;
+    padding: 10px 0;
+  }
+  
+  .nav-item {
+    margin: 0 10px;
+  }
+  
+  .nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #cccccc;
+  }
+  
+  .nav-bar {
+    display: flex;
+    justify-content: center;
+  }
+  
+   /* Hero section */
+   .hero {
+    background-color: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .hero-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-subtitle {
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #000000;
   }
   
   img {
@@ -74,19 +133,6 @@ a:focus {
     text-decoration: none;
   }
   
-  /* Header */
-  .header {
-    background-color: #000;
-    color: #fff;
-  }
-  
-  /* Hero section */
-  .hero {
-    background-color: #ffffff;
-    padding: 100px 0;
-    text-align: center;
-  }
-  
   /* Portfolio section */
   .section-title {
     font-size: 36px;
@@ -94,6 +140,34 @@ a:focus {
     margin-bottom: 40px;
   }
   
+  .work-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .work-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .work-image {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .work-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .work-description {
+    font-size: 16px;
+    color: #000000;
+  }
+  
+
   /* About section */
   .about {
     padding: 100px 0;
