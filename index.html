@@ -11,10 +11,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 </head>
-<body class="container">
+<body>
+  
   <header>
     <div class="header">
-    <img src="https://via.placeholder.com/150x50?text=Logo" alt="Your Name">
+    <img class="logo" src="https://via.placeholder.com/150x50?text=Logo" alt="Your Name">
     <nav class="nav-bar">
       <ul class="nav-list">
         <li class="nav-item"><a href="about.html" a href="#" class="nav-list">About</a></li>
@@ -24,52 +25,69 @@
     </nav>
     </div>
   </header>
+
   <main>
-    <div id="hero">
-      <section>
-      <div>
-        <h1 class="hero-title">Hi, I'm Brittany!</h1>
-        <span></span>
-        <p class="hero-subtitle">As a multidisciplinary UX designer, my philosophy is centered around creating designs that are inclusive, accessible, and localized to serve diverse audiences.</p>
-      </div>
+    <section id="hero">
+      <div class="container">
+        <div class="row">
+         <h1 class="hero-title">Hi, I'm Brittany!</h1>
+         <p class="hero-subtitle">As a multidisciplinary UX designer, my philosophy is centered around creating designs that are inclusive, accessible, and localized to serve diverse audiences.</p>
+        </div>
+      </div>  
     </section>
-    </div>
+   
+
     <div>
-    <section class="work">
-        <h2 class="section-tile">My Work</h2>
-        <div class="work-grid">
-          <div class="work-item">
-      <div>
-        <picture>
-          <source srcset="img/PlutoPay.png" media="(max-width:700px)">
-          <img src="img/PlutoPay.png" alt="PlutoPay Project" class="work-image">
-        </picture>
+      <section class="work">
+        <div class="container">
+         <div class="row">
+
+           <h2 class="content-tile">My Work</h2>
+        
+        <div>
+         <picture>
+            <source srcset="img/PlutoPay.png" media="(max-width:700px)">
+            <img class="content-image" src="img/PlutoPay.png" alt="PlutoPay Project" class="work-image">
+          </picture>
+        </div>
+
+        <div>
+          <h3 class="content-title">PlutoPay</h3>
+          <p class="content-description">PlutoPay is a mobile web responsive app that serves as an e-wallet and online banking system that allows users to send and receive in the safest and most efficient way. It is a centralized hub that is directly linked to their checking, savings, credit, and debit accounts without needing multiple banking apps.</p>
+          <a href="PlutoPay.html" a href="#" class="button">Read more</a>
+        </div>
+
       </div>
-      </div>
-      <h3 class="work-title">PlutoPay</h3>
-      <p class="work-description">PlutoPay is a mobile web responsive app that serves as an e-wallet and online banking system that allows users to send and receive in the safest and most efficient way. It is a centralized hub that is directly linked to their checking, savings, credit, and debit accounts without needing multiple banking apps.</p>
-      <a href="PlutoPay.html" a href="#" class="button">Read more</a>
+    </div>
+
     </section>
     </div>
-  </div>
+  </div>  
   </main>
 
-  <footer>
-    <div id="contact">
-      <h2>Let's Collaborate!</h2>
-    <div>
-      <a href="mailto:brittanydhamlett@gmail.com" class="button contact">Email me</a>
-    </div>
-    <div>
-      <a href="LINKEDIN-URL" target="_blank">
-        <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.0//EN'  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'><svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.0" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><circle clip-rule="evenodd" cx="16" cy="16" fill="#007BB5" fill-rule="evenodd" r="16"/><g><rect fill="#FFFFFF" height="14" width="4" x="7" y="11"/><path d="M20.499,11c-2.791,0-3.271,1.018-3.499,2v-2h-4v14h4v-8c0-1.297,0.703-2,2-2c1.266,0,2,0.688,2,2v8h4v-7    C25,14,24.479,11,20.499,11z" fill="#FFFFFF"/><circle cx="9" cy="8" fill="#FFFFFF" r="2"/></g></g><g/><g/><g/><g/><g/><g/></svg>
-      </a>
-      <a href="INSTAGRAM-URL" target="_blank">
-        <img src="http://via.placeholder.com/32x32">
-      </a>
-    </div>
-    <p>Copyright Brittany Hamlett 2023</p>
+  <footer id="contact">
+    
+    <div class="container">
+      <div class="row">
+        
+        <div>
+          <h2>Let's Collaborate!</h2>
+          <a href="mailto:brittanydhamlett@gmail.com" class="button contact">Email me</a>
+        </div>
+
+        <div>
+          <a href="LINKEDIN-URL" target="_blank">
+          <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.0//EN'  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'><svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.0" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><circle clip-rule="evenodd" cx="16" cy="16" fill="#007BB5" fill-rule="evenodd" r="16"/><g><rect fill="#FFFFFF" height="14" width="4" x="7" y="11"/><path d="M20.499,11c-2.791,0-3.271,1.018-3.499,2v-2h-4v14h4v-8c0-1.297,0.703-2,2-2c1.266,0,2,0.688,2,2v8h4v-7    C25,14,24.479,11,20.499,11z" fill="#FFFFFF"/><circle cx="9" cy="8" fill="#FFFFFF" r="2"/></g></g><g/><g/><g/><g/><g/><g/></svg>
+          </a>
+          <a href="INSTAGRAM-URL" target="_blank">
+          <img class="contact-image" src="http://via.placeholder.com/32x32">
+          </a>
+          <p>Copyright Brittany Hamlett 2023</p>
+        </div>
+
+      </div>
     </div>
   </footer>
+  
 </body>
 </html>
