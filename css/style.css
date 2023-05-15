@@ -15,24 +15,9 @@
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    text-align: left;
     padding: 60px;
   }
-
-  .col-md-6 {
-    width: 50%;
-  }  
-  
-  [class*="col-"] {
-    float: left;
-  }
-
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
   
   /* -------------------------------------------------------- Header --------------------------------------------- */
   .header {
@@ -96,12 +81,14 @@
   .hero-title {
     font-size: 48px;
     margin-bottom: 20px;
+    text-align: center;
   }
   
   .hero-subtitle {
     font-size: 24px;
     margin-bottom: 40px;
     color: #000000;
+    text-align: center;
   }
 
   .hero-subtitle-h3 {
@@ -196,7 +183,7 @@ a:focus {
   }
 
   .content-image {
-    max-width: 500px;
+    width: 80%;
     height:auto;
     margin-bottom: 10px;
   }
@@ -220,7 +207,58 @@ a:focus {
     font-size: 18px;
     color: #000000;
   }
+
+  .my-story {
+    text-align: center;
+  }
   
+  ul {
+    list-style-type: none;
+    margin-left: -35px;
+  }
+
+  .berlin-illustration {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  @keyframes color-change {
+    0% {fill: #edc655;}
+    50% {fill: #fcffad;}
+    100% {fill: #f76414;}
+  }
+
+  .sun {
+    animation-duration: 4s;
+    animation-name: color-change;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+  }
+
+
+  @keyframes cloud-move {
+    from {transform: translate(0,50px);}
+    to {transform: translate(200px,50px);}
+  }
+  
+  .cloud-front {
+    animation-duration: 30s;
+    animation-name: cloud-move;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+  }
+
+  @keyframes cloud-move-reverse {
+    from {transform: translate(446px,48px);}
+    to {transform: translate(100px, 48px);}
+  }
+
+  .cloud-back {
+    animation: 34s cloud-move-reverse infinite alternate linear;
+  }
 
   /* ---------------------------------------------------- About section ---------------------------- */
   .about {
@@ -249,17 +287,55 @@ a:focus {
     height: auto;
   }
 
-
+  .footer-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 60px;
+  }
   /* ==============================
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
+.col-md-6 {
+    width: 50%
+}
+
+[class*="col-"] {
+    float: left;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 }
 
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 1024px) {
+    .col-lg-7 {
+        width: 60%;
+    }
+
+    .col-lg-5 {
+        width:40%;
+    }
+
+    [class*="col-"] {
+        float: left;
+    }
+    
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
   }
   
 /* ==============================
