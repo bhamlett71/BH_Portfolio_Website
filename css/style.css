@@ -23,17 +23,54 @@
   .header {
     background-color: #000000;
     color: #ffffff;
-    padding: 0px;
+    padding: 010px 0 4px;
   }
 
   header {
-    position: fixed;
     width: 100%;
     left: 0;
   }
 
+  main {
+    padding-top: 56px;
+  }
+
   .logo{
     max-width: 150px;
+  }
+
+  nav > ul > li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+  }
+
+  .navtoggle.responsive nav{
+    padding: 24px 0 0;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: none;
+    padding: 0 0 10px;
+  }
+
+  .navtoggle.responsive li  {
+    display: block;
+    padding: 10px 0;
+    border-top: 1px solid rgba(255, 127,80,0.5);
+  }
+
+  .navtoggle, .navtoggle.responsive {
+    position: relative;
+  }
+  
+  .navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-size: 20px;
+    padding-right: 0;
   }
 
   .nav-list {
@@ -320,7 +357,20 @@ Medium devices (640px and larger)
     display: table;
 }
 
+nav > ul > li {
+    display: inline-block;
+  }
+
+nav > ul {
+    margin: 1em 0;
+  }
+
+.navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
 }
+
 
 /* ==============================
 Large devices (1024px or larger)
@@ -343,6 +393,14 @@ Large devices (1024px or larger)
         clear: both;
         display: table;
     }
+    
+    .logo {
+        min-width: 641px;
+    }
+
+    .navtoggle li:last-child {
+        display: none;
+      }
 
   }
   
