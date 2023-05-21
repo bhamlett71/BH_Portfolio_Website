@@ -117,7 +117,7 @@
   }
 
   .hero {
-    padding-top: 120px
+    padding-top: 100px
   }
 
   .hero-title {
@@ -212,7 +212,7 @@ a:focus {
   }
 
   .content-title {
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     margin-bottom: 40px;
   }
@@ -228,29 +228,47 @@ a:focus {
     text-align: center;
   }
 
+  .content-main-image{
+    width: 50%;
+    height:auto;
+    margin-bottom: 10px;
+  }
+
   .content-image {
-    width: 80%;
+    width: 50%;
     height:auto;
     margin-bottom: 10px;
   }
   
+  .content-image_1{
+    width: 20%;
+    height:auto;
+    margin-bottom: 10px;
+  }
+
+  .content-image_2{
+    width: 30%;
+    height:auto;
+    margin-bottom: 10px;
+  }
+
   .content-subtitle {
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 10px;
   }
 
   .content-subtitle-2{
-    font-size: 35px;
+    font-size: 25px;
     margin-bottom: 10px;
   }
 
   .content-subtitle-3{
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 10px;
   }
   
   .content-description {
-    font-size: 18px;
+    font-size: 15px;
     color: #000000;
   }
 
@@ -333,6 +351,13 @@ a:focus {
     height: auto;
   }
 
+  .download-link{
+    transition: 0.4s font-size;
+  }
+
+  .download-link:hover{
+    font-size: 18px;
+  }
   .footer-container {
     max-width: 1200px;
     margin-left: auto;
