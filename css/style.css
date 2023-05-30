@@ -16,14 +16,14 @@
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-    padding: 60px;
+    padding: 10px;
   }
   
   /* -------------------------------------------------------- Header --------------------------------------------- */
   .header {
     background-color: #000000;
     color: #ffffff;
-    padding: 010px 0 4px;
+    padding: 0px 0 4px;
   }
 
   header {
@@ -32,7 +32,7 @@
   }
 
   main {
-    padding-top: 56px;
+    padding-top: 30px;
   }
 
   .logo{
@@ -117,25 +117,25 @@
   }
 
   .hero {
-    padding-top: 100px
+    padding-top: 60px
   }
 
   .hero-title {
-    font-size: 48px;
-    margin-bottom: 20px;
+    font-size: 28px;
+    margin-bottom: 10px;
     text-align: center;
   }
   
   .hero-subtitle {
-    font-size: 24px;
-    margin-bottom: 40px;
+    font-size: 20px;
+    margin-bottom: 20px;
     color: #000000;
     text-align: center;
   }
 
   .hero-subtitle-h3 {
-    font-size: 20px;
-    margin-bottom: 40px;
+    font-size: 17px;
+    margin-bottom: 20px;
     color: #000000;
   }
 
@@ -144,17 +144,17 @@
   }
 
   a {
-    color: #6565E4;
+    color: #6767e4;
     text-decoration: none; /* No underlining */
   }
   a:hover {
-    color: #c6c9f2;
+    color: #363676;
     text-decoration: none; 
   }
 
 a:hover,
 a:focus {
-  color: #c6c9f2;
+  color: #d13564;
   text-decoration: none;
 }
 
@@ -175,11 +175,11 @@ a:focus {
     color: #ffffff;
     text-decoration: none;
     opacity: 0.75;
-    font-size: 18px;
+    font-size: 20px;
   }
 
   a:visited { /* visited link */
-    color: #fb5beb;
+    color: #5F67ED;
   }
 
   a:active { /* selected link */
@@ -200,7 +200,7 @@ a:focus {
   .button.contact:hover {
     background-color: #000000;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 20px;
     text-decoration: none;
   }
   
@@ -214,17 +214,17 @@ a:focus {
   .content-title {
     font-size: 40px;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 
   .content-subtitle {
     font-size: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   
   .content-item {
     background-color: #f9f9f9;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
   }
 
@@ -238,6 +238,7 @@ a:focus {
     width: 50%;
     height:auto;
     margin-bottom: 10px;
+    margin-left: 88px;
   }
   
   .content-image_1{
@@ -253,22 +254,22 @@ a:focus {
   }
 
   .content-subtitle {
-    font-size: 30px;
-    margin-bottom: 10px;
-  }
-
-  .content-subtitle-2{
     font-size: 25px;
     margin-bottom: 10px;
   }
 
-  .content-subtitle-3{
+  .content-subtitle-2{
     font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .content-subtitle-3{
+    font-size: 18px;
     margin-bottom: 10px;
   }
   
   .content-description {
-    font-size: 15px;
+    font-size: 13px;
     color: #000000;
   }
 
